@@ -16,7 +16,7 @@ public class Agent {
 
     private String agentname;
     private String workingarea;
-    private double phone;
+    private String phone;
     private String country;
 
     private String commission;
@@ -28,7 +28,7 @@ public class Agent {
     public Agent() {
     }
 
-    public Agent(String agentname, String workingarea, double phone, String country, String commission) {
+    public Agent(String agentname, String workingarea, String phone, String country, String commission) {
         this.agentname = agentname;
         this.workingarea = workingarea;
         this.phone = phone;
@@ -60,11 +60,11 @@ public class Agent {
         this.workingarea = workingarea;
     }
 
-    public double getPhone() {
+    public String getPhone() {
         return phone;
     }
 
-    public void setPhone(double phone) {
+    public void setPhone(String phone) {
         this.phone = phone;
     }
 
